@@ -1,0 +1,41 @@
+#-----------------------------流向管理------------------------------
+flow_tab:
+  - xpath
+  - //body/div[@id='root-master']/div[1]/section[1]/aside[1]/div[1]/div[1]/ul[1]/li[3]/div[1]/span[1]
+
+flow_manage_tab:
+  - xpath
+  - //body[1]/div[1]/div[1]/section[1]/aside[1]/div[1]/div[1]/ul[1]/li[3]/ul[1]/li[2]/span[1]
+
+month_final:
+  - xpath
+  - //body/div[@id='root-master']/div[1]/section[1]/div[2]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]
+
+month_flow_period:
+  - xpath
+  - //*[@id="root-master"]/div/section/div[2]/main/div/div/div[1]/form/div/div[1]/div/div/div[2]/div/div/div/div/span[2]
+
+month_period_select:
+  - class name
+  - ant-select-item
+
+month_res:
+  - xpath
+  - //*[@id="root-master"]/div/section/div[2]/main/div/div/div[2]/div[2]/div/div[2]/div/div/div/div/div[2]/table/tbody/tr[2]/td[1]
+
+#-----------------------------挂靠管理------------------------------
+affiliation_tab:
+  - xpath
+  - //*[@id="root-master"]/div/section/aside/div/div[1]/ul/li[2]/div
+
+affiliation_manage_tab:
+  - xpath
+  - //body[1]/div[1]/div[1]/section[1]/aside[1]/div[1]/div[1]/ul[1]/li[2]/ul[1]/li[1]/span[1]/a[1]
+
+affiliation_institution_input:
+  - xpath
+  - //*[@id="targetInstitutionCode"]
+
+affiliation_list_search_Btn:
+  - xpath
+  - //*[@id="root-master"]/div/section/div[2]/main/div[1]/div/div/div[2]/div[1]/form/div/div[7]/div/div/div[2]/div/div/div/div[1]/div/button[2]
